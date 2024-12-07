@@ -1,8 +1,16 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "MenuHeader": {
+    "about": "About",
+    "ondemand": "Classes On Demand",
+    "contact": "Contact",
+    "start": "Start",
+    "signin": "Sign In"
   },
-    "About": {
-        "title": "About us"
-    }
+  "HomePage": {
+    "title": "Hello world!",
+    "description": "This is a simple example of a web page using the"
+  },
+  "AboutPage": {
+    "title": "About Page"
+  }
 }

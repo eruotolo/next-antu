@@ -1,5 +1,26 @@
 {
-  "Index": {
-    "title": "Hola Mundo!"
+  "MenuHeader": {
+    "free": "Prueba tu <bold>CLASE GRATIS</bold>",
+    "about": "Nosotros",
+    "ondemand": "Clases On Demand",
+    "contact": "Contacto",
+    "start": "Comienza",
+    "signin": "Sign In"
+  },
+  "HomePage": {
+    "title": "Hola Mundo!",
+    "description": "Esta es una aplicación de ejemplo para mostrar cómo se puede usar el framework de desarrollo de aplicaciones web de Node.js, Express y Jade.",
+    "textOneAbout": "(del mapudungun \"antü\", sol)",
+    "textTwoAbout": "Es una forma de vida que promueve la armonía entre cuerpo, mente y alma a través del movimiento.",
+    "textTreeAbout": "Al elegir ANTÜ, iluminas tu vida desde el amor propio, cultivando un sentimiento de elevación donde tu cuerpo se encuentra con tu alma.",
+    "textFourAbout": "Sumérgete en esta experiencia transformadora y descubre el bienestar integral que te ofrece ANTÜ.",
+    "tituloOneOnDemand": "¡Entrena online conmigo!",
+    "tituloTwoOnDemand": "Clases OnDemand",
+    "textOnDemand": "Accede a <bold>clases ilimitadas de barre, pilates y signature classes</bold>, donde y cuando quieras. Únete a nuestra comunidad que ve el movimiento como una forma de autocuidado y transforma tu bienestar físico y mental con cada sesión.",
+    "watchDemo": "Ver Demo",
+    "learnMore": "Conoce +"
+  },
+  "AboutPage": {
+    "title": "Pagina Nosotros"
   }
 }

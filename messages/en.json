@@ -6,11 +6,50 @@
     "start": "Start",
     "signin": "Sign In"
   },
+  "Footer": {
+    "suscribe": "¡Subscribe!",
+    "freeClass": "Free Class",
+    "condicions": "Terms and Conditions"
+  },
   "HomePage": {
-    "title": "Hello world!",
-    "description": "This is a simple example of a web page using the"
+    "textOneAbout": "(originated from mapudungun “antÜ”, sun)",
+    "textTwoAbout": "A way of life that nurtures harmony between body, mind, and soul through conscious movement.",
+    "textTreeAbout": "By choosing ANTU, you awaken your inner light through self-love, cultivating a divine energy where your body aligns with your soul.",
+    "textFourAbout": "Immerse yourself in this transformative experience and embrace the holistic well-being that ANTU offers.",
+    "tituloOneOnDemand": "¡Workout with me online!",
+    "tituloTwoOnDemand": "Classes OnDemand",
+    "textOnDemand": "Enjoy <bold>unlimited access to barre, pilates, and signature classes</bold>, wherever and whenever you like. Become part of our community, where movement is self-care, and elevate your physical and mental well-being with every session.",
+    "watchDemo": "Watch demo",
+    "learnMore": "Learn more +",
+    "knowBetter": "¿Do you want to know us better?",
+    "btnContact": "Contact"
   },
   "AboutPage": {
-    "title": "About Page"
+    "title": "Not just a platform",
+    "alterTitle": "But a way of life",
+    "about": "About",
+    "tooltipTitleOne": "Classes",
+    "tooltipTitleTwo": "Mission",
+    "tooltipTitleThree": "Self Care",
+    "tooltipTextOne": "Pre-recorded classes designed just for you: short, intermediate, and long videos with varying intensities to meet your needs.",
+    "tooltipTextTwo": "ANTÜ’s mission is to make movement accessible to all, bringing well-being into people’s lives by using movement as a primary tool to connect the body, mind, and soul. ANTÜ is not just a platform—it’s a way of life, fostering holistic health and balance.",
+    "tooltipTextThree": "At Antü, self-care is a gentle journey that nurtures balance between body, mind, and spirit through practices that reconnect you to your true essence. Each step encourages you to care for yourself with kindness, honoring your unique rhythms and needs, and embracing harmony in every aspect of your being.",
+    "connection": "Connection",
+    "connectionText": "Being in tune and harmony with oneself and the environment, a deep union between the body, mind, and soul.",
+    "expansion": "Healing",
+    "expansionText": "A journey toward restoring balance and health in all areas of life. It is the holistic harmonization of the body, mind, and soul, guiding us towards a state of inner peace and well-being.",
+    "healing": "Expansion",
+    "healingText": "A journey of growth and transformation, where we move towards a more expansive and profound state of being. This process invites us to live with greater awareness, embracing each moment with purpose and presence.",
+    "sliderTitle": "ABOUT ME",
+    "sliderTextOne": "ANTÜ was born from a personal quest for identity—asking myself who I am, where I come from, and what I truly want to create.",
+    "sliderTextTwo": "Bailarina e instructora multidisciplinaria, originaria de Santiago, Chile.",
+    "sliderTextThree": "A multidisciplinary dancer and instructor from Santiago, Chile, her journey in dance began at the age of 7 which led her to various places such as the U.S. and Spain, where she deepened her training in classical and contemporary dance. Along the way, she discovered new techniques like Barre and aerial Pilates, constantly evolving and expanding her movement expertise.",
+    "sliderTextFour": "”In my roots, i find Latinoamerica and Movement ”",
+    "experienceTitle": "¡Experience Antü from wherever you are!",
+    "suscribe": "Subscribe"
+  },
+  "OnDemandPage": {
+    "titleDemandOne": "Class",
+    "titleDemandTwo": "Desde cualquier parte del mundo"
   }
 }

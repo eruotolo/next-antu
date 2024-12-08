@@ -7,20 +7,53 @@
     "start": "Comienza",
     "signin": "Sign In"
   },
+  "Footer": {
+    "suscribe": "¡Suscríbete!",
+    "freeClass": "Clase de prueba",
+    "condicions": "Términos y condiciones"
+  },
   "HomePage": {
-    "title": "Hola Mundo!",
-    "description": "Esta es una aplicación de ejemplo para mostrar cómo se puede usar el framework de desarrollo de aplicaciones web de Node.js, Express y Jade.",
     "textOneAbout": "(del mapudungun \"antü\", sol)",
     "textTwoAbout": "Es una forma de vida que promueve la armonía entre cuerpo, mente y alma a través del movimiento.",
-    "textTreeAbout": "Al elegir ANTÜ, iluminas tu vida desde el amor propio, cultivando un sentimiento de elevación donde tu cuerpo se encuentra con tu alma.",
+    "textThreeAbout": "Al elegir ANTÜ, iluminas tu vida desde el amor propio, cultivando un sentimiento de elevación donde tu cuerpo se encuentra con tu alma.",
     "textFourAbout": "Sumérgete en esta experiencia transformadora y descubre el bienestar integral que te ofrece ANTÜ.",
     "tituloOneOnDemand": "¡Entrena online conmigo!",
     "tituloTwoOnDemand": "Clases OnDemand",
     "textOnDemand": "Accede a <bold>clases ilimitadas de barre, pilates y signature classes</bold>, donde y cuando quieras. Únete a nuestra comunidad que ve el movimiento como una forma de autocuidado y transforma tu bienestar físico y mental con cada sesión.",
     "watchDemo": "Ver Demo",
-    "learnMore": "Conoce +"
+    "learnMore": "Conoce +",
+    "knowBetter": "¿QUIERES SABER MÁS DE NOSOTROS?",
+    "btnContact": "Contacto"
   },
   "AboutPage": {
-    "title": "Pagina Nosotros"
+    "title": "Más que una plataforma",
+    "alterTitle": "Un estilo de vida",
+    "about": "About",
+    "tooltipTitleOne": "Clases",
+    "tooltipTitleTwo": "Misión",
+    "tooltipTitleThree": "Self Care",
+    "tooltipTextOne": "Clases pre-grabadas diseñadas especialmente para ti: videos breves, intermedios y extensos, con diversas intensidades para adaptarse a tus necesidades.",
+    "tooltipTextTwo": "La misión de ANTÜ es hacer el movimiento algo accesible para todos y traer bienestar a la vida de las personas, establecemos el movimiento como forma principal para conectar con nuestro cuerpo, mente y alma. ANTÜ más que una plataforma es una forma de vida.",
+    "tooltipTextThree": "El autocuidado en Antü se enfoca en cultivar un equilibrio consciente entre cuerpo, mente y espíritu, a través de prácticas que te conectan con lo esencial. Cada paso en este camino es una invitación a cuidar de ti de manera integral, en armonía con tus propias necesidades y ritmos.",
+    "connection": "CONEXIÓN",
+    "connectionText": "Estar en <bold>sintonía y armonía</bold> con uno mismo y con el entorno, la unión profunda entre el cuerpo, la mente y el alma.",
+    "expansion": "SANACIÓN",
+    "expansionText": "Proceso de <bold>crecer, desarrollarse y alcanzar un estado más amplio</bold> y profundo de ser, permitiéndonos vivir de manera más plena y consciente.",
+    "healing": "EXPANSIÓN",
+    "healingText": "Viaje hacia la <bold>restauración del equilibrio y la salud</bold> en todos los aspectos de la vida. Armonización integral del cuerpo, la mente y el alma.",
+    "sliderTitle": "SOBRE MI",
+    "sliderTextOne": "ANTÜ nace como el resultado de una búsqueda de identidad personal, de preguntarme quien soy, de donde vengo y que quiero hacer.",
+    "sliderTextTwo": "Bailarina e instructora multidisciplinaria, originaria de Santiago, Chile.",
+    "sliderTextThree": "Su camino en la danza comenzó a los 7 años, lo que la llevó por distintos lugares, entre ellos Estados Unidos y España, donde pudo profundizar su formación en danza clásica y contemporánea, además de aprender nuevas técnicas como Barre y Pilates aéreo.",
+    "sliderTextFour": "”En mis raíces encuentro Latinoamérica y el movimiento.”",
+    "experienceTitle": "CLASES EN CUALQUIER PARTE DEL MUNDO",
+    "suscribe": "SUSCRÍBETE"
+  },
+  "OnDemandPage": {
+    "titleDemandOne": "CLASES",
+    "titleDemandTwo": "OnDemand",
+    "titleDemandThree": "Desde cualquier parte del mundo",
+    "workout": "¡Entrena Online conmigo!",
+    "workoutText": "Accede a clases ilimitadas de barre, pilates y signature classes, donde y cuando quieras. Únete a nuestra comunidad que ve el movimiento como una forma de autocuidado y transforma tu bienestar físico y mental con cada sesión."
   }
 }

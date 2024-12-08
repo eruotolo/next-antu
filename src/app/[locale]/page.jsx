@@ -1,13 +1,20 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 
 import VideoDemoModal from '@/components/Modal/VideoDemoModal';
+import HoverImage from '@/components/HoverImage/HoverImage';
 
 const byAntu = '/by_antu.svg';
 const aboutHome = '/home-about.webp';
-const logoAntu = '/logo.svg';
+const logoAntu = '/antu_logo.svg';
 const computer = '/computer.svg';
+const controlFront = '/control_1.webp';
+const controlBack = '/control_2.webp';
+const strenghtFront = '/strenght_1.webp';
+const strenghtBack = '/strenght_2.webp';
+const discoverFront = '/discover_1.webp';
+const discoverBack = '/discover_2.webp';
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -40,9 +47,9 @@ export default function Home() {
             </section>
 
             <section className="section-about-home">
-                <div class="container mx-auto flex flex-col justify-center sm:h-[90vh]">
-                    <div class="grid grid-cols-11">
-                        <div class="flex flex-col justify-center sm:col-span-3 sm:h-[440px]">
+                <div className="container mx-auto flex flex-col justify-center sm:h-[90vh]">
+                    <div className="grid grid-cols-11">
+                        <div className="flex flex-col justify-center sm:col-span-3 sm:h-[440px]">
                             <Image src={logoAntu} alt="Logo Antu" width={230} height={69} />
                             <h5 className="font-dmdisplay font-normal italic text-rosa sm:pb-[35px] sm:pt-[20px] sm:text-[23px]">
                                 {t('textOneAbout')}
@@ -51,7 +58,7 @@ export default function Home() {
                                 {t('textTwoAbout')}
                             </p>
                         </div>
-                        <div class="flex flex-col items-center justify-center sm:col-span-5">
+                        <div className="flex flex-col items-center justify-center sm:col-span-5">
                             <Image
                                 src={aboutHome}
                                 alt={'about home'}
@@ -66,9 +73,9 @@ export default function Home() {
                                 About
                             </Link>
                         </div>
-                        <div class="flex flex-col justify-center sm:col-span-3 sm:h-[440px]">
+                        <div className="flex flex-col justify-center sm:col-span-3 sm:h-[440px]">
                             <p className="text-right font-manrope text-beige sm:pb-[35px] sm:text-[15px] sm:leading-[20px]">
-                                {t('textTreeAbout')}
+                                {t('textThreeAbout')}
                             </p>
                             <p className="text-right font-manrope font-normal text-beige sm:text-[15px] sm:leading-[20px]">
                                 {t('textFourAbout')}
@@ -79,7 +86,7 @@ export default function Home() {
             </section>
 
             <section className="section-ondemand-home">
-                <div class="container mx-auto flex flex-col items-center justify-center sm:h-[90vh]">
+                <div className="container mx-auto flex flex-col items-center justify-center sm:h-[90vh]">
                     <Image src={computer} alt={'Computadora'} width={134} height={102} />
                     <h4 className="font-marcellus font-normal uppercase text-beige sm:py-[30px] sm:text-[27px] sm:tracking-[0.1em]">
                         {t('tituloOneOnDemand')}
@@ -101,6 +108,54 @@ export default function Home() {
                             {t('learnMore')}
                         </Link>
                     </div>
+                </div>
+            </section>
+
+            <section className="sm:py-[150px]">
+                <div className="container mx-auto flex flex-col items-center">
+                    <div className="sm:grid sm:grid-cols-3 sm:gap-10">
+                        <div className="col-span-1 sm:pt-[70px]">
+                            <HoverImage
+                                defaultSrc={controlFront}
+                                hoverSrc={controlBack}
+                                alt={'control'}
+                                width={325}
+                                height={433}
+                            />
+                        </div>
+                        <div className="col-span-1">
+                            <HoverImage
+                                defaultSrc={strenghtFront}
+                                hoverSrc={strenghtBack}
+                                alt={'control'}
+                                width={325}
+                                height={433}
+                            />
+                        </div>
+                        <div className="col-span-1 sm:pt-[70px]">
+                            <HoverImage
+                                defaultSrc={discoverFront}
+                                hoverSrc={discoverBack}
+                                alt={'control'}
+                                width={325}
+                                height={433}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="section-contact-home">
+                <div className="container mx-auto flex flex-col items-center justify-center sm:h-[400px]">
+                    <h3 className="font-marcellus font-normal uppercase text-beige sm:mb-[30px] sm:text-[27px] sm:tracking-[0.1em]">
+                        {t('knowBetter')}
+                    </h3>
+                    <Link
+                        href="/contact"
+                        className="flex h-[54px] w-[183px] items-center justify-center rounded-[26px] border-[2px] border-rosa font-marcellus font-normal uppercase text-beige hover:border-[#3970a4] hover:bg-[#3970a4] hover:opacity-50 sm:text-[23px]"
+                    >
+                        {t('btnContact')}
+                    </Link>
                 </div>
             </section>
         </>

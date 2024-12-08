@@ -5,7 +5,11 @@
 body{
     background-color: #F2EFEB;
 }
-
+.section-footer{
+    background-size: cover;
+    background-position: center center;
+    background-image: url('/bg_footer.webp');
+}
 .section-header-home{
     background-size: cover;
     background-position: center bottom;
@@ -18,6 +22,31 @@ body{
     background-size: cover;
     background-position: center center;
 }
+.section-contact-home{
+    background-size: cover;
+    background-position: center center;
+}
+.section-header-about{
+    background-size: cover;
+    background-position: center bottom;
+}
+.slider-about-One, .slider-about-Two, .slider-about-Three{
+    background-size: cover;
+    background-position: center center;
+}
+.section-suscribe-about{
+    background-size: cover;
+    background-position: center center;
+}
+.section-header-ondemand{
+    background-size: cover;
+    background-position: center bottom;
+}
+.section-clases-ondemand{
+    background-size: cover;
+    background-position: center center;
+}
+
 
 @media(min-width: 641px){
     .section-header-home{
@@ -28,6 +57,30 @@ body{
     }
     .section-ondemand-home{
         background-image: url('/antu_ondemand.webp');
+    }
+    .section-contact-home{
+        background-image: url('/home_contacto_antu.webp');
+    }
+    .section-header-about{
+        background-image: url('/about/about_antu.webp');
+    }
+    .slider-about-One{
+        background-image: url('/about/about_antu_slider-1.webp');
+    }
+    .slider-about-Two{
+        background-image: url('/about/about_antu_slider-2.webp');
+    }
+    .slider-about-Three{
+        background-image: url('/about/about_antu_slider-3.webp');
+    }
+    .section-suscribe-about{
+        background-image: url('/about/about_antu_suscribete.webp');
+    }
+    .section-header-ondemand{
+        background-image: url('/ondemand/portada_clases_antu.webp');
+    }
+    .section-clases-ondemand{
+        background-image: url('/ondemand/demo_clases_a ntu.webp');
     }
 }
 
@@ -59,32 +112,6 @@ body{
         --chart-5: 27 87% 67%;
         --radius: 0.5rem;
     }
-  .dark {
-        --background: 0 0% 3.9%;
-        --foreground: 0 0% 98%;
-        --card: 0 0% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 3.9%;
-        --popover-foreground: 0 0% 98%;
-        --primary: 0 0% 98%;
-        --primary-foreground: 0 0% 9%;
-        --secondary: 0 0% 14.9%;
-        --secondary-foreground: 0 0% 98%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 63.9%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 14.9%;
-        --input: 0 0% 14.9%;
-        --ring: 0 0% 83.1%;
-        --chart-1: 220 70% 50%;
-        --chart-2: 160 60% 45%;
-        --chart-3: 30 80% 55%;
-        --chart-4: 280 65% 60%;
-        --chart-5: 340 75% 55%;
-    }
 }
 
 @layer base {
@@ -94,4 +121,30 @@ body{
   body {
     @apply bg-background text-foreground;
     }
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #F2EFEB;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-pagination-horizontal{
+    bottom: 40px !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: #F2EFEB !important;
+}
+.swiper-pagination-bullet{
+    width: 18px !important;
+    height: 18px !important;
+    background-color: #F2EFEB !important;
 }

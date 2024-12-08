@@ -1,17 +1,17 @@
 'use client';
 
 import Image from 'next/image';
-import { Link } from '@/i18n/routing';
-import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
+import { Link } from '@/i18n/routing';
+import { usePathname } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
 
 import { UserRound } from 'lucide-react';
 
 const style = {
     navLinks:
-        'cursor-pointer uppercase text-[#f2efeb] text-[20px] px-[20px] font-normal font-marcellus',
+        'cursor-pointer uppercase text-[#f2efeb] text-[20px] px-[20px] font-normal font-marcellus hover:underline',
 };
 
 export default function Header() {
@@ -20,6 +20,7 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [bgColor, setBgColor] = useState('bg-transparent');
     const [key, setKey] = useState(Math.random());
+
     const pathname = usePathname();
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
@@ -69,7 +70,8 @@ export default function Header() {
                                         className={`link ${pathname === '/about' ? 'active' : ''}`}
                                         href="/about"
                                         style={{
-                                            fontWeight: pathname === '/about' ? '500' : 'normal',
+                                            textDecoration:
+                                                pathname === '/about' ? 'underline' : 'none',
                                         }}
                                     >
                                         {t('about')}
@@ -80,7 +82,8 @@ export default function Header() {
                                         className={`link ${pathname === '/ondemand' ? 'active' : ''}`}
                                         href="/ondemand"
                                         style={{
-                                            fontWeight: pathname === '/ondemand' ? '500' : 'normal',
+                                            textDecoration:
+                                                pathname === '/ondemand' ? 'underline' : 'none',
                                         }}
                                     >
                                         {t('ondemand')}
@@ -91,7 +94,8 @@ export default function Header() {
                                         className={`link ${pathname === '/contact' ? 'active' : ''}`}
                                         href="/contact"
                                         style={{
-                                            fontWeight: pathname === '/contact' ? '500' : 'normal',
+                                            textDecoration:
+                                                pathname === '/contact' ? 'underline' : 'none',
                                         }}
                                     >
                                         {t('contact')}
@@ -117,7 +121,9 @@ export default function Header() {
                                     <Link
                                         className={`link ${pathname === '/' ? 'active' : ''}`}
                                         href="/"
-                                        style={{ fontWeight: pathname === '/' ? '500' : 'normal' }}
+                                        style={{
+                                            textDecoration: pathname === '/' ? 'underline' : 'none',
+                                        }}
                                     >
                                         {t('signin')}
                                     </Link>

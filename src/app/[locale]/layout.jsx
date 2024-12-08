@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
 import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
 import { manrope, marcellus, dmdisplay } from '@/app/[locale]/fonts';
 
 import './globals.css';
@@ -39,12 +40,13 @@ export default async function RootLayout({ children, params }) {
     return (
         <html
             lang={locale}
-            class={`${manrope.variable} ${marcellus.variable} ${dmdisplay.variable}`}
+            className={`${manrope.variable} ${marcellus.variable} ${dmdisplay.variable}`}
         >
             <body>
                 <NextIntlClientProvider messages={messages}>
                     <Header />
-                    {children}
+                    <main>{children}</main>
+                    <Footer />
                 </NextIntlClientProvider>
             </body>
         </html>

@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import ContactForm from '@/components/ContactForm/ContactForm';
 import { Instagram } from 'lucide-react';
 
 const logoContact = '/contact/logo_icono_antu.svg';
@@ -36,10 +37,11 @@ export default function ContactPage() {
                         <div className="sm:col-span-1">
                             <Image src={logoContact} alt="Logo Contacto" width={368} height={368} />
                         </div>
-                        <div className="sm:col-span-2 sm:pl-[100px] sm:pt-[30px]">
-                            <h5 className="font-manrope font-medium text-marron sm:text-[27px] sm:tracking-[0.25em]">
+                        <div className="sm:col-span-2 sm:pl-[140px] sm:pt-[30px]">
+                            <h5 className="font-manrope font-medium text-marron sm:mb-[20px] sm:text-[27px] sm:tracking-[0.25em]">
                                 {t('titleForm')}
                             </h5>
+                            <ContactForm />
                         </div>
                     </div>
                 </div>

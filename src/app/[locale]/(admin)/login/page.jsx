@@ -1,3 +1,3 @@
 export default function LoginPage() {
-    return <h1>Tu Codigo Aquí</h1>;
+    return <h1>Pagina Login</h1>;
 }

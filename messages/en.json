@@ -85,16 +85,16 @@
     "faqTitleSix": "What can I expect from ANTÜ MOVEMENT?",
     "faqTextSix": "With ANTÜ MOVEMENT, you’ll experience complete workouts that nurture the mind, body, and soul. Physically, you’ll develop strength, endurance, and muscle definition, especially in areas often overlooked by other workouts. Spiritually, the sessions deepen the mind-body connection, fostering mindfulness and holistic well-being. Classes cater to all levels, from beginners to advanced, and you can pause and adjust them according to your needs."
   },
-  "ContactPage":{
-    "titleContact": "",
-    "titleContactTwo": "",
-    "followContact": "",
-    "titleForm": "",
-    "fullName": "",
-    "email": "",
-    "subject": "",
-    "message": "",
-    "btnContact": ""
+  "ContactPage": {
+    "titleContact": "Check out the",
+    "titleContactTwo": "latest updates",
+    "followContact": "FOLLOW US ON INSTAGRAM",
+    "titleForm": "CONTACT US",
+    "fullName": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "btnContact": "Send"
   },
   "PricePage": {
 

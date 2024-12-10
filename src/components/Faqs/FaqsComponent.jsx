@@ -1,4 +1,7 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 import {
     Accordion,
@@ -24,7 +27,9 @@ export default function FagsComponent() {
         {
             index: 'item-3',
             title: t('faqTitleThree'),
-            text: t('faqTextThree'),
+            text: t.rich('faqTextThree', {
+                guidelines: (children) => <Link href="/prueba">{children}</Link>,
+            }),
         },
         {
             index: 'item-4',

@@ -1,5 +1,9 @@
 {
+  "LanguageSwitcher": {
+    "toggleLanguage": "Change Language"
+  },
   "MenuHeader": {
+    "free": "Try a <bold>FREE CLASS</bold>",
     "about": "About",
     "ondemand": "Classes On Demand",
     "contact": "Contact",
@@ -14,7 +18,7 @@
   "HomePage": {
     "textOneAbout": "(originated from mapudungun “antÜ”, sun)",
     "textTwoAbout": "A way of life that nurtures harmony between body, mind, and soul through conscious movement.",
-    "textTreeAbout": "By choosing ANTU, you awaken your inner light through self-love, cultivating a divine energy where your body aligns with your soul.",
+    "textThreeAbout": "By choosing ANTU, you awaken your inner light through self-love, cultivating a divine energy where your body aligns with your soul.",
     "textFourAbout": "Immerse yourself in this transformative experience and embrace the holistic well-being that ANTU offers.",
     "tituloOneOnDemand": "¡Workout with me online!",
     "tituloTwoOnDemand": "Classes OnDemand",
@@ -49,7 +53,50 @@
     "suscribe": "Subscribe"
   },
   "OnDemandPage": {
-    "titleDemandOne": "Class",
-    "titleDemandTwo": "Desde cualquier parte del mundo"
+    "titleDemandOne": "CLASSES",
+    "titleDemandTwo": "OnDemand",
+    "titleDemandThree": "From anywhere in the world",
+    "workout": "¡Workout with me online!",
+    "workoutText": "Enjoy unlimited access to barre, pilates, and signature classes, wherever and whenever you like. Become part of our community, where movement is self-care, and elevate your physical and mental well-being with every session.",
+    "freeClass": "¡Try a free class without commitment!",
+    "btnFreeClass": "Free Class",
+    "itemOne": "Classes",
+    "itemTwo": "Packages",
+    "itemThree": "Enjoy",
+    "promoOne": "MONTHLY",
+    "promoTwo": "ANNUAL",
+    "priceOne": "24,99 €",
+    "priceTwo": "15% OFF",
+    "textOne": "Unlimited Access to All Platform Classes",
+    "textTwo": "One-time annual payment Unlimited Access to All Platform Classes",
+    "otherPriceOne": "Annual €299.99",
+    "otherPriceTwo": "Annual €249.99",
+    "textBtn": "Subscribe",
+    "faqTitleOne": "What does the subscription include?",
+    "faqTextOne": "The subscription provides unlimited access to all platform classes, including Barre, Pilates-inspired and signature classes. Each session is led by Catalina, offering clear guidance on breathing techniques and proper form while fostering a strong mind-body connection. The platform is accessible on both desktop and mobile devices.",
+    "faqTitleTwo": "Can I do these workouts without prior experience?",
+    "faqTextTwo": "Absolutely! One of the great things about barre and the other classes on the platform is that they’re suitable for all fitness levels. Each session is available on-demand, with detailed instructions from me to guide you every step of the way. You can go at your own pace, and you’ll be amazed at how quickly you’ll notice improvements in strength and endurance.",
+    "faqTitleThree": "Can I try the platform before subscribing?\n",
+    "faqTextThree": "Yes! Your first experience with ANTÜ MOVEMENT is completely free. You can try the trial class <guidelines>here</guidelines>!",
+    "faqTitleFour": "How much does the subscription cost?",
+    "faqTextFour": "You can choose between a monthly or annual subscription! The monthly fee is €24.99, while the annual plan is a one-time payment of €249.99, saving you 15%, which is almost two months free. Your subscription renews automatically, but you can cancel it anytime.",
+    "faqTitleFive": "What languages are available on the platform?",
+    "faqTextFive": "All classes are available in both English and Spanish. Be sure to select your preferred language when choosing a workout.",
+    "faqTitleSix": "What can I expect from ANTÜ MOVEMENT?",
+    "faqTextSix": "With ANTÜ MOVEMENT, you’ll experience complete workouts that nurture the mind, body, and soul. Physically, you’ll develop strength, endurance, and muscle definition, especially in areas often overlooked by other workouts. Spiritually, the sessions deepen the mind-body connection, fostering mindfulness and holistic well-being. Classes cater to all levels, from beginners to advanced, and you can pause and adjust them according to your needs."
+  },
+  "ContactPage":{
+    "titleContact": "",
+    "titleContactTwo": "",
+    "followContact": "",
+    "titleForm": "",
+    "fullName": "",
+    "email": "",
+    "subject": "",
+    "message": "",
+    "btnContact": ""
+  },
+  "PricePage": {
+
   }
 }

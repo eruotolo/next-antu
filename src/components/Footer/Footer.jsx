@@ -25,7 +25,7 @@ export default function Footer() {
                             />
                         </div>
                         <div className="flex flex-col items-end justify-center sm:col-span-1 sm:h-[152px]">
-                            <a href="/" target={'_blank'}>
+                            <a href="https://www.instagram.com/antumovement/" target={'_blank'}>
                                 <Instagram className="text-beige hover:text-rosa" size="24" />
                             </a>
                             <Link

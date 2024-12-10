@@ -1,4 +1,7 @@
 {
+  "LanguageSwitcher": {
+    "toggleLanguage": "Cambiar idioma"
+  },
   "MenuHeader": {
     "free": "Prueba tu <bold>CLASE GRATIS</bold>",
     "about": "Nosotros",
@@ -64,22 +67,36 @@
     "promoTwo": "ANUAL",
     "priceOne": "24,99 €",
     "priceTwo": "15% OFF",
-    "textOne": "Acceso ilimitado a todas \nlas clases de la plataforma",
-    "textTwo": "Un único pago al año. \nAcceso ilimitado a todas \nlas clases de la plataforma",
+    "textOne": "Acceso ilimitado a todas las clases de la plataforma",
+    "textTwo": "Un único pago al año. Acceso ilimitado a todas las clases de la plataforma",
     "otherPriceOne": "Anual 299,99 €",
     "otherPriceTwo": "Anual 249.99 €",
     "textBtn": "Suscríbete",
     "faqTitleOne": "¿Que incluye la subscripción?",
     "faqTextOne": "Incluye acceso ilimitado a todas las clases de la plataforma, desde clases de barre, pilates inspired, aéreo y danza. Cada entrenamiento es guiado por Catalina, quien te proporcionará instrucciones claras sobre la respiración adecuada y la forma correcta, mientras crea una fuerte conexión mente-cuerpo. La plataforma es accesible desde computadoras de escritorio y dispositivos móviles.",
     "faqTitleTwo": "¿Puedo hacer estos entrenamientos sin tener experiencia previa?",
-    "faqTextTwo": "",
+    "faqTextTwo": "¡Absolutamente! Una de las muchas cosas increíbles sobre el barre y las otras clases en la plataforma es que es adecuado para todos los niveles de condición física. Todos los entrenamientos están disponibles bajo demanda, con mis instrucciones detalladas para cada ejercicio, así que siempre estarás completamente apoyado y podrás aprender la técnica correcta. Puedes avanzar a tu propio ritmo al principio y te sorprenderá lo rápido que desarrollarás fuerza y resistencia.",
     "faqTitleThree": "¿Puedo probar la plataforma antes de suscribirme?",
-    "faqTextThree": "",
+    "faqTextThree": "Si! Tu primera experiencia con ANTÜ MOVEMENT es totalmente gratuita, ¡puedes probar la clase de prueba <guidelines>aquí</guidelines>!",
     "faqTitleFour": "¿Cuánto cuesta la suscripción?",
-    "faqTextFour": "",
+    "faqTextFour": "Puedes elegir entre una suscripción mensual o anual!\n La tarifa mensual es de 24,99 €, mientras que la tarifa anual es un único pago de 249,99 €, ahorrando así un 15% del precio original lo que equivale casi a dos meses. La renovación de tu suscripción es automática y puedes cancelarla en cualquier momento.",
     "faqTitleFive": "¿Qué idiomas están disponibles para los miembros de la plataforma?",
-    "faqTextFive": "",
+    "faqTextFive": "Todas las clases están disponibles en inglés y español. Asegúrate de seleccionar el idioma correcto al elegir tu entrenamiento.",
     "faqTitleSix": "¿Qué puedo esperar de ANTÜ MOVEMENT?",
-    "faqTextSix": ""
+    "faqTextSix": "Puedes esperar entrenamientos completos que trabajan en sintonía la mente, el cuerpo y el alma. A nivel físico puedes desarrollar fuerza, resistencia y una mayor definición muscular, con un enfoque en el core y en áreas a menudo descuidadas por otros tipos de entrenamiento. A nivel espiritual, los entrenamientos están diseñados para fomentar una conexión profunda entre la mente y el cuerpo, promoviendo la conciencia plena y el bienestar espiritual. Las clases están diseñadas para apoyar a todos los niveles, desde principiantes hasta avanzados, y puedes pausar y ajustar los entrenamientos según tus necesidades."
+  },
+  "ContactPage":{
+    "titleContact": "Descubre las",
+    "titleContactTwo": "últimas novedades",
+    "followContact": "SIGUENOS EN INSTAGRAM",
+    "titleForm": "CONTÁCTANOS",
+    "fullName": "Nombre Completo",
+    "email": "Correo",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "btnContact": "Enviar"
+  },
+  "PricePage": {
+
   }
 }

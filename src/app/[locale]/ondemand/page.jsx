@@ -112,7 +112,7 @@ export default function OnDemandPage() {
                                     {t('otherPriceOne')}
                                 </h5>
                                 <Link
-                                    href={'/'}
+                                    href="/join-us"
                                     className="flex items-center justify-center rounded-[26px] border-[2px] border-azul bg-azul text-center font-marcellus font-normal text-blanco hover:opacity-50 sm:h-[53px] sm:w-[186px] sm:text-[23px]"
                                 >
                                     {t('textBtn')}
@@ -132,7 +132,7 @@ export default function OnDemandPage() {
                                     {t('otherPriceTwo')}
                                 </h5>
                                 <Link
-                                    href={'/'}
+                                    href="/join-us"
                                     className="flex items-center justify-center rounded-[26px] border-[2px] border-azul bg-azul text-center font-marcellus font-normal text-blanco hover:opacity-50 sm:h-[53px] sm:w-[186px] sm:text-[23px]"
                                 >
                                     {t('textBtn')}

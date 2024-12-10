@@ -7,7 +7,7 @@ import SliderContent from '@/components/SlidesContent/SliderContent';
 import { Link } from '@/i18n/routing';
 
 const starAbout = '/about/estrella_antu.svg';
-const triadoAntu = '/about/antu_triada.webp';
+const triadoAntu = '/about/triada_antu.svg';
 
 export default function AboutPage() {
     const t = useTranslations('AboutPage');

@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { Link } from '@/i18n/routing';
 import { usePathname } from '@/i18n/routing';
 import { useTranslations } from 'next-intl';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher/LanguageSwitcher';
 
 import { UserRound } from 'lucide-react';
 
@@ -42,7 +43,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="sticky top-0 z-20 flex h-[40px] items-center justify-center bg-marron hover:bg-[#c19d9d]">
+            <div className="sticky top-0 z-20 flex h-[43px] items-center justify-center bg-marron hover:bg-[#c19d9d]">
                 <Link href="/">
                     <div className="flex">
                         <Image src="/estrella_antu.svg" alt={'estrella'} width={13} height={13} />
@@ -54,6 +55,7 @@ export default function Header() {
                         <Image src="/estrella_antu.svg" alt={'estrella'} width={13} height={13} />
                     </div>
                 </Link>
+                <LanguageSwitcher />
             </div>
             <header className="z-10">
                 <div className="container mx-auto my-[10px]">

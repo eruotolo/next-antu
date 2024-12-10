@@ -5,6 +5,10 @@
 body{
     background-color: #F2EFEB;
 }
+.data-radix-popper-content-wrapper{
+    left: -20px !important;
+    top: -4px !important;
+}
 .section-footer{
     background-size: cover;
     background-position: center center;
@@ -46,7 +50,10 @@ body{
     background-size: cover;
     background-position: center center;
 }
-
+.section-header-contact{
+    background-size: cover;
+    background-position: center center;
+}
 
 @media(min-width: 641px){
     .section-header-home{
@@ -81,6 +88,9 @@ body{
     }
     .section-clases-ondemand{
         background-image: url('/ondemand/demo_clases_a ntu.webp');
+    }
+    .section-header-contact{
+        background-image: url('/contact/contacto_antu.webp');
     }
 }
 

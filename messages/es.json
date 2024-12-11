@@ -11,7 +11,7 @@
     "signin": "Sign In"
   },
   "Footer": {
-    "suscribe": "¡Suscríbete!",
+    "suscribe": "Join Us",
     "freeClass": "Clase de prueba",
     "condicions": "Términos y condiciones"
   },
@@ -71,7 +71,7 @@
     "textTwo": "Un único pago al año. Acceso ilimitado a todas las clases de la plataforma",
     "otherPriceOne": "Anual 299,99 €",
     "otherPriceTwo": "Anual 249.99 €",
-    "textBtn": "Suscríbete",
+    "textBtn": "Contrata-",
     "faqTitleOne": "¿Que incluye la subscripción?",
     "faqTextOne": "Incluye acceso ilimitado a todas las clases de la plataforma, desde clases de barre, pilates inspired, aéreo y danza. Cada entrenamiento es guiado por Catalina, quien te proporcionará instrucciones claras sobre la respiración adecuada y la forma correcta, mientras crea una fuerte conexión mente-cuerpo. La plataforma es accesible desde computadoras de escritorio y dispositivos móviles.",
     "faqTitleTwo": "¿Puedo hacer estos entrenamientos sin tener experiencia previa?",
@@ -88,7 +88,7 @@
   "ContactPage": {
     "titleContact": "Descubre las",
     "titleContactTwo": "últimas novedades",
-    "followContact": "SIGUENOS EN INSTAGRAM",
+    "followContact": "SÍGUENOS EN INSTAGRAM",
     "titleForm": "CONTÁCTANOS",
     "fullName": "Nombre Completo",
     "email": "Correo",
@@ -99,7 +99,7 @@
   "JourneyPage": {
     "workout": "¡Entrena Online conmigo!",
     "enjoy": "Accede a clases ilimitadas de barre, pilates y signature classes, donde y cuando quieras. Únete a nuestra comunidad que ve el movimiento como una forma de autocuidado y transforma tu bienestar físico y mental con cada sesión.",
-    "learnMore": "Conoce +",
+    "learnMore": "Sobre Antü",
     "itemOne": "Clases",
     "itemTwo": "Planes",
     "itemThree": "Disfruta",
@@ -111,7 +111,7 @@
     "textTwo": "Un único pago al año. Acceso ilimitado a todas las clases de la plataforma",
     "otherPriceOne": "Anual 299,99 €",
     "otherPriceTwo": "Anual 249.99 €",
-    "textBtn": "Suscríbete"
+    "textBtn": "Contrata-"
   }
 
 }

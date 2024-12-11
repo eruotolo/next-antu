@@ -11,7 +11,7 @@
     "signin": "Sign In"
   },
   "Footer": {
-    "suscribe": "¡Subscribe!",
+    "suscribe": "Join Us",
     "freeClass": "Free Class",
     "condicions": "Terms and Conditions"
   },
@@ -71,7 +71,7 @@
     "textTwo": "One-time annual payment Unlimited Access to All Platform Classes",
     "otherPriceOne": "Annual €299.99",
     "otherPriceTwo": "Annual €249.99",
-    "textBtn": "Subscribe",
+    "textBtn": "Contrata",
     "faqTitleOne": "What does the subscription include?",
     "faqTextOne": "The subscription provides unlimited access to all platform classes, including Barre, Pilates-inspired and signature classes. Each session is led by Catalina, offering clear guidance on breathing techniques and proper form while fostering a strong mind-body connection. The platform is accessible on both desktop and mobile devices.",
     "faqTitleTwo": "Can I do these workouts without prior experience?",
@@ -97,9 +97,9 @@
     "btnContact": "Send"
   },
   "JourneyPage": {
-    "workout": "¡Workout with me online!",
+    "workout": "Workout with me online!",
     "enjoy": "Enjoy unlimited access to barre, pilates, and signature classes, wherever and whenever you like. Become part of our community, where movement is self-care, and elevate your physical and mental well-being with every session.",
-    "learnMore": "Learn more +",
+    "learnMore": "About Antü",
     "itemOne": "Classes",
     "itemTwo": "Packages",
     "itemThree": "Enjoy",
@@ -111,7 +111,7 @@
     "textTwo": "One-time annual payment Unlimited Access to All Platform Classes",
     "otherPriceOne": "Annual €299.99",
     "otherPriceTwo": "Annual €249.99",
-    "textBtn": "Subscribe"
+    "textBtn": "Contrata"
   }
 
 }

@@ -112,7 +112,7 @@ export default function AboutPage() {
                         {t('experienceTitle')}
                     </h3>
                     <Link
-                        href="/ondemand"
+                        href="/join-us"
                         className="flex h-[54px] w-[183px] items-center justify-center rounded-[26px] border-[2px] border-rosa font-marcellus font-normal uppercase text-beige hover:border-[#3970a4] hover:bg-[#3970a4] hover:opacity-50 sm:text-[23px]"
                     >
                         {t('suscribe')}

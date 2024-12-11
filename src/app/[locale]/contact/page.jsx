@@ -21,7 +21,7 @@ export default function ContactPage() {
                     <h4 className="text-center font-manrope font-bold text-blanco sm:mb-[30px] sm:mt-[40px] sm:text-[27px] sm:tracking-[0.25em]">
                         {t('followContact')}
                     </h4>
-                    <a href="/contact">
+                    <a href="https://www.instagram.com/antumovement/" target="_blank">
                         <Instagram className="text-beige hover:text-rosa" size="38" />
                     </a>
                 </div>

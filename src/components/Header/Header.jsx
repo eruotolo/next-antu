@@ -12,7 +12,7 @@ import { UserRound } from 'lucide-react';
 
 const style = {
     navLinks:
-        'cursor-pointer uppercase text-[#f2efeb] text-[20px] px-[20px] font-normal font-marcellus hover:underline',
+        'cursor-pointer uppercase text-[#f2efeb] text-[0.875rem] px-[10px] font-normal font-marcellus hover:underline',
 };
 
 export default function Header() {
@@ -60,57 +60,65 @@ export default function Header() {
             <header className="z-10">
                 <div className="container mx-auto my-[10px]">
                     <nav className="flex h-[60px] items-center justify-between">
-                        <div className="hidden xl:flex">
-                            <Link href="/">
-                                <Image src="/logo.svg" alt={'Logo'} width={146.5} height={59.3} />
-                            </Link>
+                        <div className="flex h-[60px] items-center">
+                            <div className="mr-[30px] hidden xl:flex">
+                                <Link href="/">
+                                    <Image
+                                        src="/logo.svg"
+                                        alt={'Logo'}
+                                        width={146.5}
+                                        height={59.3}
+                                    />
+                                </Link>
+                            </div>
+                            <div className="hidden xl:flex">
+                                <ul className="flex">
+                                    <li className={style.navLinks}>
+                                        <Link
+                                            className={`link ${pathname === '/about' ? 'active' : ''}`}
+                                            href="/about"
+                                            style={{
+                                                textDecoration:
+                                                    pathname === '/about' ? 'underline' : 'none',
+                                            }}
+                                        >
+                                            {t('about')}
+                                        </Link>
+                                    </li>
+                                    <li className={style.navLinks}>
+                                        <Link
+                                            className={`link ${pathname === '/ondemand' ? 'active' : ''}`}
+                                            href="/ondemand"
+                                            style={{
+                                                textDecoration:
+                                                    pathname === '/ondemand' ? 'underline' : 'none',
+                                            }}
+                                        >
+                                            {t('ondemand')}
+                                        </Link>
+                                    </li>
+                                    <li className={style.navLinks}>
+                                        <Link
+                                            className={`link ${pathname === '/contact' ? 'active' : ''}`}
+                                            href="/contact"
+                                            style={{
+                                                textDecoration:
+                                                    pathname === '/contact' ? 'underline' : 'none',
+                                            }}
+                                        >
+                                            {t('contact')}
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div className="hidden xl:flex">
-                            <ul className="flex">
-                                <li className={style.navLinks}>
-                                    <Link
-                                        className={`link ${pathname === '/about' ? 'active' : ''}`}
-                                        href="/about"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/about' ? 'underline' : 'none',
-                                        }}
-                                    >
-                                        {t('about')}
-                                    </Link>
-                                </li>
-                                <li className={style.navLinks}>
-                                    <Link
-                                        className={`link ${pathname === '/ondemand' ? 'active' : ''}`}
-                                        href="/ondemand"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/ondemand' ? 'underline' : 'none',
-                                        }}
-                                    >
-                                        {t('ondemand')}
-                                    </Link>
-                                </li>
-                                <li className={style.navLinks}>
-                                    <Link
-                                        className={`link ${pathname === '/contact' ? 'active' : ''}`}
-                                        href="/contact"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/contact' ? 'underline' : 'none',
-                                        }}
-                                    >
-                                        {t('contact')}
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
+
                         <div className="hidden xl:flex">
                             <ul className="flex">
                                 <li>
                                     <Link
-                                        href="/"
-                                        className="mr-[20px] rounded-[26px] bg-[#3970a4] px-[26px] py-[10px] font-marcellus text-[20px] uppercase text-[#f2efeb] hover:opacity-70"
+                                        href="/join-us"
+                                        className="mr-[20px] rounded-[26px] bg-[#3970a4] px-[26px] py-[10px] font-marcellus text-[18px] uppercase text-[#f2efeb] hover:opacity-70"
                                     >
                                         {t('start')}
                                     </Link>
@@ -121,7 +129,7 @@ export default function Header() {
                                         size={32}
                                     />
                                     <Link
-                                        className={`link ${pathname === '/' ? 'active' : ''}`}
+                                        className={`link ${pathname === '/' ? 'active' : ''} pt-[5px]`}
                                         href="/"
                                         style={{
                                             textDecoration: pathname === '/' ? 'underline' : 'none',

@@ -16,7 +16,7 @@ export default function JoinUsPage() {
                                 {t('enjoy')}
                             </p>
                             <Link
-                                href="/ondemand"
+                                href="/about"
                                 className="flex h-[54px] w-[224px] items-center justify-center rounded-[26px] border-[2px] border-rosa bg-rosa font-marcellus font-normal uppercase text-beige hover:bg-rosa hover:opacity-50 sm:m-[10px] sm:text-[23px]"
                             >
                                 {t('learnMore')}

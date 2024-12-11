@@ -35,7 +35,7 @@ export default function Footer() {
                                 {t('suscribe')}
                             </Link>
                             <Link
-                                href="/"
+                                href="/freedemo"
                                 className="font-manrope font-normal text-beige underline hover:text-rosa sm:py-[6px] sm:text-[16px]"
                             >
                                 {t('freeClass')}

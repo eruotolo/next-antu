@@ -52,7 +52,7 @@ export default function OnDemandPage() {
                             {t('freeClass')}
                         </h3>
                         <Link
-                            href="/ondemand"
+                            href="/freedemo"
                             className="flex h-[54px] w-[250px] items-center justify-center rounded-[26px] border-[2px] border-rosa bg-rosa font-marcellus font-normal uppercase text-beige hover:bg-rosa hover:opacity-50 sm:m-[10px] sm:text-[23px]"
                         >
                             {t('btnFreeClass')}

@@ -41,6 +41,7 @@ export function LanguageSwitcher() {
                         alt={`${currentLanguage.name} flag`}
                         width={28}
                         height={28}
+                        className="h-[28px] w-[28px]"
                     />
                     <span className="font-manrope text-[#2c2c2c] sm:text-[20px]">
                         {currentLanguage.code.toUpperCase()}
@@ -53,9 +54,15 @@ export function LanguageSwitcher() {
                     <DropdownMenuItem
                         key={lang.code}
                         onClick={() => switchLanguage(lang.code)}
-                        className={locale === lang.code ? 'bg-accent' : ''}
+                        className={locale === lang.code ? 'bg-accent' : 'cursor-pointer'}
                     >
-                        <img src={lang.flag} alt={`${lang.name} flag`} className="mr-2 h-4 w-4" />
+                        <Image
+                            src={lang.flag}
+                            alt={`${lang.name} flag`}
+                            width={28}
+                            height={28}
+                            className="mr-2 h-4 w-4"
+                        />
                         {lang.name}
                     </DropdownMenuItem>
                 ))}

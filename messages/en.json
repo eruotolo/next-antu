@@ -112,6 +112,14 @@
     "otherPriceOne": "Annual €299.99",
     "otherPriceTwo": "Annual €249.99",
     "textBtn": "Contrata"
+  },
+  "FreeDemo": {
+    "titleOne": "Try a",
+    "titleTwo": "free class",
+    "textOne": "Discover what it means to move with purpose and well-being. At ANTÜ, each session is an invitation to explore the connection between your body, mind and soul.",
+    "textTwo": "Get started today!",
+    "textThree": "Sign up now and you can access our classes from anywhere in the world. Feel how movement can transform your day.",
+    "btnFree": "Subscribe"
   }
 
 }

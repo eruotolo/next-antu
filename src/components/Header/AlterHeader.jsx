@@ -12,7 +12,7 @@ import { UserRound } from 'lucide-react';
 
 const style = {
     navLinks:
-        'cursor-pointer uppercase text-[#f2efeb] text-[0.875rem] px-[10px] font-normal font-marcellus hover:underline',
+        'cursor-pointer uppercase text-[#151e1d] text-[0.875rem] px-[10px] font-normal font-marcellus hover:underline',
 };
 
 export default function Header() {
@@ -51,20 +51,14 @@ export default function Header() {
                             alt={'estrella'}
                             width={13}
                             height={13}
-                            className="mt-[6px] h-[13px] w-[13px]"
+                            className="h-auto w-auto"
                         />
                         <h5 className="px-[20px] font-manrope text-[16px] font-normal tracking-wider text-blanco">
                             {t.rich('free', {
                                 bold: (chunks) => <strong>{chunks}</strong>,
                             })}
                         </h5>
-                        <Image
-                            src="/estrella_antu.svg"
-                            alt={'estrella'}
-                            width={13}
-                            height={13}
-                            className="mt-[6px] h-[13px] w-[13px]"
-                        />
+                        <Image src="/estrella_antu.svg" alt={'estrella'} width={13} height={13} />
                     </div>
                 </Link>
                 <LanguageSwitcher />
@@ -76,7 +70,7 @@ export default function Header() {
                             <div className="mr-[30px] hidden xl:flex">
                                 <Link href="/">
                                     <Image
-                                        src="/logo.svg"
+                                        src="/logo_bk.svg"
                                         alt={'Logo'}
                                         width={146.5}
                                         height={59.3}

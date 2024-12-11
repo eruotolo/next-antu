@@ -34,7 +34,7 @@ export default function AboutPage() {
                         alt={'Estrella Antu'}
                         width={51}
                         height={51}
-                        className="text-rosa"
+                        className="h-[51px] w-[51px] text-rosa"
                     />
                     <h3 className="font-manrope font-bold uppercase text-beige sm:mt-[30px] sm:text-[27px] sm:tracking-[0.25em]">
                         {t('about')}

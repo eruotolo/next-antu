@@ -96,7 +96,22 @@
     "message": "Message",
     "btnContact": "Send"
   },
-  "PricePage": {
-
+  "JourneyPage": {
+    "workout": "¡Workout with me online!",
+    "enjoy": "Enjoy unlimited access to barre, pilates, and signature classes, wherever and whenever you like. Become part of our community, where movement is self-care, and elevate your physical and mental well-being with every session.",
+    "learnMore": "Learn more +",
+    "itemOne": "Classes",
+    "itemTwo": "Packages",
+    "itemThree": "Enjoy",
+    "promoOne": "MONTHLY",
+    "promoTwo": "ANNUAL",
+    "priceOne": "24,99 €",
+    "priceTwo": "15% OFF",
+    "textOne": "Unlimited Access to All Platform Classes",
+    "textTwo": "One-time annual payment Unlimited Access to All Platform Classes",
+    "otherPriceOne": "Annual €299.99",
+    "otherPriceTwo": "Annual €249.99",
+    "textBtn": "Subscribe"
   }
+
 }

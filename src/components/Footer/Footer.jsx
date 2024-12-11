@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { Instagram } from 'lucide-react';
 
 const logoAntu = '/antu_logo.svg';
@@ -29,7 +29,7 @@ export default function Footer() {
                                 <Instagram className="text-beige hover:text-rosa" size="24" />
                             </a>
                             <Link
-                                href="/"
+                                href="/join-us"
                                 className="font-manrope font-normal text-beige underline hover:text-rosa sm:py-[6px] sm:text-[16px]"
                             >
                                 {t('suscribe')}

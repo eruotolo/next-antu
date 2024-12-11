@@ -31,7 +31,7 @@ export async function POST(request) {
             subject: 'Nuevo Mensaje desde la web Antü!',
             html: `
                 <p>Hola,</p>
-                <p>Tiene un nuevo mensaje de: ${name}.</p>
+                <p>Tienes un nuevo mensaje de: ${name}.</p>
                 <p>Email: ${email}.</p>
                 <p>Asunto: ${subject}.</p>
                 <p>Mensaje: ${message}.</p>

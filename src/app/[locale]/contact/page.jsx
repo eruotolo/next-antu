@@ -27,7 +27,7 @@ export default function ContactPage() {
                 </div>
             </section>
 
-            <div className="container mx-auto flex items-center justify-center sm:-mt-[25]">
+            <div className="container mx-auto flex items-center justify-center sm:-mt-[25px]">
                 <Image src={starContact} alt="Estrella Anty" width={51} height={51} />
             </div>
 

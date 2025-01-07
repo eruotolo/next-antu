@@ -44,7 +44,7 @@ export default function Header() {
     return (
         <>
             <div className="sticky top-0 z-20 flex h-[43px] items-center justify-center bg-marron hover:bg-[#c19d9d]">
-                <Link href="/">
+                <Link href="/freedemo">
                     <div className="flex">
                         <Image
                             src="/estrella_antu.svg"

@@ -11,8 +11,9 @@ import { manrope, marcellus, dmdisplay } from '@/app/[locale]/fonts';
 import './globals.css';
 
 export const metadata = {
-    title: 'Antü',
-    description: 'Where the body meets the soul',
+    title: 'ANTÜ MOVEMENT | AWAKEN YOUR ENERGY',
+    description:
+        'A fitness platform designed for everyone, where you set the limits. Discover a conscious way to awaken your energy and strengthen your body from wherever you are. With ANTÜ, each session inspires you to connect with yourself while achieving your goals at your own pace. This is your moment to shine and transform! ��✨',
     icons: {
         icon: '/favicon.ico',
         apple: '/favicon.png',

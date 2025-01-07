@@ -10,9 +10,7 @@ body{
     top: -4px !important;
 }
 .section-footer{
-    background-size: cover;
-    background-position: center center;
-    background-image: url('/bg_footer.webp');
+    background-color: #151E1D;
 }
 .section-header-home{
     background-size: cover;

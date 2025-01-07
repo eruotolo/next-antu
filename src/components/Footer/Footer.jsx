@@ -42,7 +42,7 @@ export default function Footer() {
                             </Link>
                             <Link
                                 href="/"
-                                className="font-manrope font-normal text-beige underline hover:text-rosa sm:py-[6px] sm:text-[16px]"
+                                className="hidden font-manrope font-normal text-beige underline hover:text-rosa sm:py-[6px] sm:text-[16px]"
                             >
                                 {t('condicions')}
                             </Link>

@@ -77,7 +77,7 @@ export default function Home() {
                             <p className="text-right font-manrope text-beige sm:pb-[35px] sm:text-[15px] sm:leading-[20px]">
                                 {t('textThreeAbout')}
                             </p>
-                            <p className="text-right font-manrope font-normal text-beige sm:text-[15px] sm:leading-[20px]">
+                            <p className="text-right font-manrope font-normal text-beige sm:pl-[25px] sm:text-[15px] sm:leading-[20px]">
                                 {t('textFourAbout')}
                             </p>
                         </div>

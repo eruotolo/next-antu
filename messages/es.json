@@ -4,7 +4,7 @@
   },
   "MenuHeader": {
     "free": "Prueba tu <bold>CLASE GRATIS</bold>",
-    "about": "Nosotros",
+    "about": "About",
     "ondemand": "Clases On Demand",
     "contact": "Contacto",
     "start": "Comienza",
@@ -37,7 +37,7 @@
     "tooltipTitleThree": "Self Care",
     "tooltipTextOne": "Clases pre-grabadas diseñadas especialmente para ti: videos breves, intermedios y extensos, con diversas intensidades para adaptarse a tus necesidades.",
     "tooltipTextTwo": "La misión de ANTÜ es hacer el movimiento algo accesible para todos y traer bienestar a la vida de las personas, establecemos el movimiento como forma principal para conectar con nuestro cuerpo, mente y alma. ANTÜ más que una plataforma es una forma de vida.",
-    "tooltipTextThree": "El autocuidado en Antü se enfoca en cultivar un equilibrio consciente entre cuerpo, mente y espíritu, a través de prácticas que te conectan con lo esencial. Cada paso en este camino es una invitación a cuidar de ti de manera integral, en armonía con tus propias necesidades y ritmos.",
+    "tooltipTextThree": "El autocuidado en ANTÜ se enfoca en cultivar un equilibrio consciente entre cuerpo, mente y espíritu, a través de prácticas que te conectan con lo esencial. Cada paso en este camino es una invitación a cuidar de ti de manera integral, en armonía con tus propias necesidades y ritmos.",
     "connection": "CONEXIÓN",
     "connectionText": "Estar en <bold>sintonía y armonía</bold> con uno mismo y con el entorno, la unión profunda entre el cuerpo, la mente y el alma.",
     "expansion": "SANACIÓN",
@@ -71,7 +71,7 @@
     "textTwo": "Un único pago al año. Acceso ilimitado a todas las clases de la plataforma",
     "otherPriceOne": "Anual 299,99 €",
     "otherPriceTwo": "Anual 249.99 €",
-    "textBtn": "Contrata-",
+    "textBtn": "Únete",
     "faqTitleOne": "¿Que incluye la subscripción?",
     "faqTextOne": "Incluye acceso ilimitado a todas las clases de la plataforma, desde clases de barre, pilates inspired, aéreo y danza. Cada entrenamiento es guiado por Catalina, quien te proporcionará instrucciones claras sobre la respiración adecuada y la forma correcta, mientras crea una fuerte conexión mente-cuerpo. La plataforma es accesible desde computadoras de escritorio y dispositivos móviles.",
     "faqTitleTwo": "¿Puedo hacer estos entrenamientos sin tener experiencia previa?",
@@ -99,7 +99,7 @@
   "JourneyPage": {
     "workout": "¡Entrena Online conmigo!",
     "enjoy": "Accede a clases ilimitadas de barre, pilates y signature classes, donde y cuando quieras. Únete a nuestra comunidad que ve el movimiento como una forma de autocuidado y transforma tu bienestar físico y mental con cada sesión.",
-    "learnMore": "Sobre Antü",
+    "learnMore": "Accede aquí",
     "itemOne": "Clases",
     "itemTwo": "Planes",
     "itemThree": "Disfruta",
@@ -111,7 +111,7 @@
     "textTwo": "Un único pago al año. Acceso ilimitado a todas las clases de la plataforma",
     "otherPriceOne": "Anual 299,99 €",
     "otherPriceTwo": "Anual 249.99 €",
-    "textBtn": "Contrata-"
+    "textBtn": "Únete"
   },
   "FreeDemo": {
     "titleOne": "Prueba una",

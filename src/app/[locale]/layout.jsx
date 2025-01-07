@@ -3,7 +3,6 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 
-import Header from '@/components/Header/Header';
 import DynamicHeader from '@/components/Header/DynamicHeader';
 import Footer from '@/components/Footer/Footer';
 import { manrope, marcellus, dmdisplay } from '@/app/[locale]/fonts';

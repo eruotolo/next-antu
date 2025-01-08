@@ -6,9 +6,9 @@ import FagsComponent from '@/components/Faqs/FaqsComponent';
 const item01 = '/ondemand/1_antu.svg';
 const item02 = '/ondemand/2_antu.svg';
 const item03 = '/ondemand/3_antu.svg';
-const imgClasesOne = '/ondemand/barre_antu.webp';
-const imgClasesTwo = '/ondemand/pilates_antu.webp';
-const imgClasesThree = '/ondemand/signature_antu.webp';
+const imgClasesOne = '/ondemand/barre_antu.png';
+const imgClasesTwo = '/ondemand/pilates_antu.png';
+const imgClasesThree = '/ondemand/signature_antu.png';
 const imgEnjoy = '/ondemand/clases_signature_antu.webp';
 
 export default function OnDemandPage() {

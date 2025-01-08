@@ -10,11 +10,11 @@ const aboutHome = '/home-about.webp';
 const logoAntu = '/antu_logo.svg';
 const computer = '/computer.svg';
 const controlFront = '/home/control.png';
-const controlBack = '/home/control_2.webp';
+const controlBack = '/home/control_2.png';
 const strenghtFront = '/home/strength.png';
-const strenghtBack = '/home/strenght_2.webp';
+const strenghtBack = '/home/strenght_2.png';
 const discoverFront = '/home/discover.png';
-const discoverBack = '/home/discover_2.webp';
+const discoverBack = '/home/discover_2.png';
 
 export default function Home() {
     const t = useTranslations('HomePage');

@@ -9,12 +9,12 @@ const byAntu = '/by_antu.svg';
 const aboutHome = '/home-about.webp';
 const logoAntu = '/antu_logo.svg';
 const computer = '/computer.svg';
-const controlFront = '/control_1.webp';
-const controlBack = '/control_2.webp';
-const strenghtFront = '/strenght_1.webp';
-const strenghtBack = '/strenght_2.webp';
-const discoverFront = '/discover_1.webp';
-const discoverBack = '/discover_2.webp';
+const controlFront = '/home/control.png';
+const controlBack = '/home/control_2.webp';
+const strenghtFront = '/home/strength.png';
+const strenghtBack = '/home/strenght_2.webp';
+const discoverFront = '/home/discover.png';
+const discoverBack = '/home/discover_2.webp';
 
 export default function Home() {
     const t = useTranslations('HomePage');

@@ -60,16 +60,16 @@ body{
 
 @media(min-width: 641px){
     .section-header-home{
-        background-image: url('/antu_portada_home.webp');
+        background-image: url('/home/portada_antu.jpg');
     }
     .section-about-home{
-        background-image: url('/fondo_azul.webp');
+        background-image: url('/home/antu_fondo-azul.jpg');
     }
     .section-ondemand-home{
-        background-image: url('/antu_ondemand.webp');
+        background-image: url('/home/antu_clases-on-demand.jpg');
     }
     .section-contact-home{
-        background-image: url('/home_contacto_antu.webp');
+        background-image: url('/home/banner-contacto.jpg');
     }
     .section-header-about{
         background-image: url('/about/about_antu.webp');

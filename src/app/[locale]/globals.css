@@ -72,19 +72,19 @@ body{
         background-image: url('/home/banner-contacto.jpg');
     }
     .section-header-about{
-        background-image: url('/about/about_antu.webp');
+        background-image: url('/about/about_portada.jpg');
     }
     .slider-about-One{
-        background-image: url('/about/about_antu_slider-1.webp');
+        background-image: url('/about/about_antu_slider-1.jpg');
     }
     .slider-about-Two{
-        background-image: url('/about/about_antu_slider-2.webp');
+        background-image: url('/about/about_antu_slider-2.png');
     }
     .slider-about-Three{
-        background-image: url('/about/about_antu_slider-3.webp');
+        background-image: url('/about/about_antu_slider-3.png');
     }
     .section-suscribe-about{
-        background-image: url('/about/about_antu_suscribete.webp');
+        background-image: url('/about/about_antu_suscribete.jpg');
     }
     .section-header-ondemand{
         background-image: url('/ondemand/portada_clases_antu.webp');

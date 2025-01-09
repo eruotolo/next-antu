@@ -53,7 +53,13 @@ export default function AboutPage() {
                                 <h3 className="font-marcellus font-normal uppercase text-rosa sm:mr-[10px] sm:text-[27px] sm:tracking-[0.1em]">
                                     {t('connection')}
                                 </h3>
-                                <Image src={starAbout} alt={'Star About'} width={21} height={21} />
+                                <Image
+                                    src={starAbout}
+                                    alt={'Star About'}
+                                    width={21}
+                                    height={21}
+                                    className="mt-[8px] h-[21px] w-[21px]"
+                                />
                             </div>
                             <p className="font-manrope font-normal text-gris sm:mt-[10px] sm:text-[15px] sm:leading-[22px]">
                                 {t.rich('connectionText', {
@@ -75,6 +81,7 @@ export default function AboutPage() {
                                         alt={'Star About'}
                                         width={21}
                                         height={21}
+                                        className="mt-[8px] h-[21px] w-[21px]"
                                     />
                                 </div>
                                 <p className="font-manrope font-normal text-gris sm:mt-[10px] sm:text-[15px] sm:leading-[22px]">
@@ -90,7 +97,13 @@ export default function AboutPage() {
                                 <h3 className="font-marcellus font-normal uppercase text-rosa sm:mr-[10px] sm:text-[27px] sm:tracking-[0.1em]">
                                     {t('expansion')}
                                 </h3>
-                                <Image src={starAbout} alt={'Star About'} width={21} height={21} />
+                                <Image
+                                    src={starAbout}
+                                    alt={'Star About'}
+                                    width={21}
+                                    height={21}
+                                    className="mt-[8px] h-[21px] w-[21px]"
+                                />
                             </div>
                             <p className="font-manrope font-normal text-gris sm:mt-[10px] sm:text-[15px] sm:leading-[22px]">
                                 {t.rich('healingText', {

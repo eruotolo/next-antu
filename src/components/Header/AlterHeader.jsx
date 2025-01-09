@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import MobileMenu from '@/components/Header/MobileMenu';
 
 import { Link } from '@/i18n/routing';
 import { usePathname } from '@/i18n/routing';
@@ -17,29 +17,7 @@ const style = {
 
 export default function Header() {
     const t = useTranslations('MenuHeader');
-
-    const [menuOpen, setMenuOpen] = useState(false);
-    const [bgColor, setBgColor] = useState('bg-transparent');
-    const [key, setKey] = useState(Math.random());
-
     const pathname = usePathname();
-
-    const toggleMenu = () => setMenuOpen(!menuOpen);
-
-    useEffect(() => {
-        const changeBackground = () => {
-            if (window.scrollY >= 150) {
-                setBgColor('bg-[#EFEBE1F2]');
-                setKey(Math.random()); // Esto forzará un renderizado
-            } else {
-                setBgColor('bg-transparent');
-                setKey(Math.random()); // Esto forzará un renderizado
-            }
-        };
-
-        window.addEventListener('scroll', changeBackground);
-        return () => window.removeEventListener('scroll', changeBackground);
-    }, []);
 
     return (
         <>
@@ -69,7 +47,10 @@ export default function Header() {
                 </Link>
                 <LanguageSwitcher />
             </div>
-            <header className="z-10">
+
+            <MobileMenu />
+
+            <header className="z-10 hidden lg:flex">
                 <div className="container mx-auto my-[10px]">
                     <nav className="flex h-[60px] items-center justify-between">
                         <div className="flex h-[60px] items-center">
@@ -80,6 +61,7 @@ export default function Header() {
                                         alt={'Logo'}
                                         width={146.5}
                                         height={59.3}
+                                        className="h-[59px] w-[146px]"
                                     />
                                 </Link>
                             </div>
@@ -130,7 +112,7 @@ export default function Header() {
                                 <li>
                                     <Link
                                         href="/join-us"
-                                        className="mr-[20px] rounded-[26px] bg-[#3970a4] px-[26px] py-[10px] font-marcellus text-[18px] uppercase text-[#f2efeb] hover:opacity-70"
+                                        className="z-20 mr-[20px] rounded-[26px] bg-[#3970a4] px-[26px] py-[10px] font-marcellus text-[18px] uppercase text-[#f2efeb] hover:opacity-70"
                                     >
                                         {t('start')}
                                     </Link>

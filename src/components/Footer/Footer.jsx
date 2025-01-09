@@ -14,7 +14,13 @@ export default function Footer() {
                 <div className="container mx-auto flex flex-col justify-center sm:h-[300px]">
                     <div className="sm:grid sm:grid-cols-3">
                         <div className="flex items-center sm:col-span-1 sm:h-[152px]">
-                            <Image src={logoAntu} alt="Logo Antu" width={230} height={69} />
+                            <Image
+                                src={logoAntu}
+                                alt="Logo Antu"
+                                width={230}
+                                height={69}
+                                className="h-[69px] w-[230px]"
+                            />
                         </div>
                         <div className="flex items-center justify-center sm:col-span-1 sm:h-[152px]">
                             <Image

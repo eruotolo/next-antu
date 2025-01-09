@@ -38,8 +38,9 @@ export default function Home() {
                                 src={byAntu}
                                 alt={'by antu'}
                                 width={363}
-                                height={860}
+                                height={86}
                                 priority={true}
+                                className="h-[86px] w-[363px]"
                             />
                         </div>
                     </div>
@@ -47,10 +48,16 @@ export default function Home() {
             </section>
 
             <section className="section-about-home">
-                <div className="container mx-auto flex flex-col justify-center sm:h-[90vh]">
+                <div className="container mx-auto flex flex-col justify-center sm:h-[80vh]">
                     <div className="grid grid-cols-11">
                         <div className="flex flex-col justify-center sm:col-span-3 sm:h-[440px]">
-                            <Image src={logoAntu} alt="Logo Antu" width={230} height={69} />
+                            <Image
+                                src={logoAntu}
+                                alt="Logo Antu"
+                                width={230}
+                                height={69}
+                                className="h-[69px] w-[230px]"
+                            />
                             <h5 className="font-dmdisplay font-normal italic text-rosa sm:pb-[35px] sm:pt-[20px] sm:text-[23px]">
                                 {t('textOneAbout')}
                             </h5>

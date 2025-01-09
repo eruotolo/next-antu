@@ -4,6 +4,7 @@
   },
   "MenuHeader": {
     "free": "Try a <bold>FREE CLASS</bold>",
+    "home": "Home",
     "about": "About",
     "ondemand": "Classes On Demand",
     "contact": "Contact",

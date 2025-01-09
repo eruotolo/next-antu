@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import MobileMenu from '@/components/Header/MobileMenu';
 
 import { Link } from '@/i18n/routing';
 import { usePathname } from '@/i18n/routing';
@@ -17,33 +17,11 @@ const style = {
 
 export default function Header() {
     const t = useTranslations('MenuHeader');
-
-    const [menuOpen, setMenuOpen] = useState(false);
-    const [bgColor, setBgColor] = useState('bg-transparent');
-    const [key, setKey] = useState(Math.random());
-
     const pathname = usePathname();
-
-    const toggleMenu = () => setMenuOpen(!menuOpen);
-
-    useEffect(() => {
-        const changeBackground = () => {
-            if (window.scrollY >= 150) {
-                setBgColor('bg-[#EFEBE1F2]');
-                setKey(Math.random()); // Esto forzará un renderizado
-            } else {
-                setBgColor('bg-transparent');
-                setKey(Math.random()); // Esto forzará un renderizado
-            }
-        };
-
-        window.addEventListener('scroll', changeBackground);
-        return () => window.removeEventListener('scroll', changeBackground);
-    }, []);
 
     return (
         <>
-            <div className="sticky top-0 z-20 flex h-[41px] items-center justify-center bg-marron hover:bg-[#c19d9d]">
+            <div className="sticky top-0 z-20 flex h-[40px] items-center justify-center bg-marron hover:bg-[#c19d9d]">
                 <Link href="/freedemo">
                     <div className="flex">
                         <Image
@@ -69,21 +47,25 @@ export default function Header() {
                 </Link>
                 <LanguageSwitcher />
             </div>
-            <header className="z-10">
+
+            <MobileMenu />
+
+            <header className="z-10 hidden lg:flex">
                 <div className="container mx-auto my-[10px]">
                     <nav className="flex h-[60px] items-center justify-between">
                         <div className="flex h-[60px] items-center">
-                            <div className="mr-[30px] hidden xl:flex">
+                            <div className="mr-[30px] flex">
                                 <Link href="/">
                                     <Image
                                         src="/logo.svg"
                                         alt={'Logo'}
                                         width={146.5}
                                         height={59.3}
+                                        className="h-[59px] w-[146px]"
                                     />
                                 </Link>
                             </div>
-                            <div className="hidden xl:flex">
+                            <div className="flex">
                                 <ul className="flex">
                                     <li className={style.navLinks}>
                                         <Link
@@ -125,7 +107,7 @@ export default function Header() {
                             </div>
                         </div>
 
-                        <div className="hidden xl:flex">
+                        <div className="flex">
                             <ul className="flex">
                                 <li>
                                     <Link

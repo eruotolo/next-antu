@@ -42,22 +42,22 @@ export function LanguageSwitcher() {
         <div className="fixed right-0 top-0" ref={dropdownRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex h-[40px] items-center justify-center rounded-[0px] border border-gray-300 bg-white px-2 sm:w-[80px]"
+                className="flex h-[40px] w-[60px] items-center justify-center rounded-[0px] bg-[#F2EFEB] px-2 sm:w-[80px]"
             >
                 <Image
                     src={currentLanguage.flag}
                     alt={`${currentLanguage.name} flag`}
                     width={28}
                     height={28}
-                    className="h-[26px] w-[26px]"
+                    className="h-[20px] w-[20px] sm:h-[26px] sm:w-[26px]"
                 />
-                <span className="ml-2 font-manrope text-[#2c2c2c] sm:text-[16px]">
+                <span className="ml-2 font-manrope text-[14px] text-[#2c2c2c] sm:text-[16px]">
                     {currentLanguage.code.toUpperCase()}
                 </span>
                 <span className="sr-only">{t('toggleLanguage')}</span>
             </button>
             {isOpen && (
-                <div className="absolute right-0 top-full w-40 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+                <div className="absolute right-0 top-full w-40 rounded-md bg-[#F2EFEB] shadow-lg ring-1 ring-black ring-opacity-5">
                     <div
                         className="py-1"
                         role="menu"

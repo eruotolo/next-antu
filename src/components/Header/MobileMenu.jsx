@@ -14,7 +14,7 @@ export default function MobileMenu() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     const linkStyle =
-        'cursor-pointer uppercase text-[#626262] text-[18px] py-[15px] font-normal font-marcellus';
+        'cursor-pointer uppercase text-[#626262] text-[20px] py-[15px] font-normal font-marcellus';
 
     const links = [
         { href: '/', label: 'Home' },
@@ -26,7 +26,7 @@ export default function MobileMenu() {
     return (
         <header className="z-20 lg:hidden">
             <div className="container mx-auto my-[10px]">
-                <nav className="flex h-[60px] items-center justify-between bg-red-50 px-[20px]">
+                <nav className="flex h-[60px] items-center justify-between px-[20px]">
                     <div>
                         <Link href="/">
                             <Image
@@ -64,8 +64,8 @@ export default function MobileMenu() {
                     <div
                         className={
                             menuOpen
-                                ? 'fixed left-[0px] top-[0px] z-20 h-[105vh] w-[105vw] bg-[#F2EFEB] p-10 duration-500 ease-in-out xl:hidden'
-                                : 'fixed left-[-100%] top-[0px] h-[105vh] p-10 duration-500 ease-in-out'
+                                ? 'fixed left-[0px] top-[0px] z-20 h-[100vh] w-[100vw] bg-[#F2EFEB] p-10 duration-500 ease-in-out'
+                                : 'fixed left-[-100%] top-[0px] h-[100vh] p-10 duration-500 ease-in-out'
                         }
                     >
                         <div className="flex w-full items-center justify-end">
@@ -87,60 +87,45 @@ export default function MobileMenu() {
                                 </svg>
                             </button>
                         </div>
-                        <div className="flex flex-col items-center py-4">
-                            <ul className="flex flex-col items-center">
-                                <li className={linkStyle}>
-                                    <Link
-                                        className={`link ${pathname === '/' ? 'active' : ''}`}
-                                        href="/"
-                                        style={{
-                                            textDecoration: pathname === '/' ? 'underline' : 'none',
-                                        }}
-                                        onClick={toggleMenu}
-                                    >
-                                        {t('home')}
-                                    </Link>
-                                </li>
-                                <li className={linkStyle}>
-                                    <Link
-                                        className={`link ${pathname === '/about' ? 'active' : ''}`}
-                                        href="/about"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/about' ? 'underline' : 'none',
-                                        }}
-                                        onClick={toggleMenu}
-                                    >
-                                        {t('about')}
-                                    </Link>
-                                </li>
-                                <li className={linkStyle}>
-                                    <Link
-                                        className={`link ${pathname === '/ondemand' ? 'active' : ''}`}
-                                        href="/ondemand"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/ondemand' ? 'underline' : 'none',
-                                        }}
-                                        onClick={toggleMenu}
-                                    >
-                                        {t('ondemand')}
-                                    </Link>
-                                </li>
-                                <li className={linkStyle}>
-                                    <Link
-                                        className={`link ${pathname === '/contact' ? 'active' : ''}`}
-                                        href="/contact"
-                                        style={{
-                                            textDecoration:
-                                                pathname === '/contact' ? 'underline' : 'none',
-                                        }}
-                                        onClick={toggleMenu}
-                                    >
-                                        {t('contact')}
-                                    </Link>
-                                </li>
-                            </ul>
+                        <div className="flex h-[90vh] flex-col justify-between">
+                            <div className="flex flex-col items-center py-4">
+                                <ul className="flex flex-col items-center">
+                                    {links.map((link) => (
+                                        <li key={link.href} className={linkStyle}>
+                                            <Link
+                                                className={`link ${pathname === link.href ? 'active' : ''}`}
+                                                href={link.href}
+                                                style={{
+                                                    textDecoration:
+                                                        pathname === link.href
+                                                            ? 'underline'
+                                                            : 'none',
+                                                }}
+                                                onClick={toggleMenu}
+                                            >
+                                                {link.label}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="flex flex-col items-center py-4">
+                                <ul className="flex flex-col items-center">
+                                    <li>
+                                        <Link className="my-[8px] flex h-[54px] w-[300px] items-center justify-center rounded-[26px] border-[2px] border-rosa font-marcellus text-[20px] font-normal uppercase text-rosa">
+                                            {t('signin')}
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            href="/join-us"
+                                            className="my-[8px] flex h-[54px] w-[300px] items-center justify-center rounded-[26px] border-[2px] bg-[#3970a4] font-marcellus text-[20px] font-normal uppercase text-beige"
+                                        >
+                                            {t('start')}
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>

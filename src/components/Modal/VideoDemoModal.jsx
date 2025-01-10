@@ -16,7 +16,7 @@ export default function VideoDemoModal() {
 
     return (
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
-            <DialogTrigger className="w-[224px] rounded-[26px] border-[2px] border-rosa px-[30px] py-[6px] font-marcellus font-normal uppercase text-beige hover:bg-rosa sm:mr-[10px] sm:text-[23px]">
+            <DialogTrigger className="h-[54px] w-[224px] rounded-[26px] border-[2px] border-rosa px-[30px] py-[6px] font-marcellus text-[20px] font-normal uppercase text-beige hover:bg-rosa sm:mr-[10px] sm:text-[23px]">
                 {t('watchDemo')}
             </DialogTrigger>
             <DialogContent className="modalvideo rounded-0 border-[0px] px-[0px] pb-[0px] pt-[0px] sm:max-w-[1080px]">

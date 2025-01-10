@@ -31,7 +31,7 @@ export default function Header() {
                             height={13}
                             className="mt-[6px] h-[13px] w-[13px]"
                         />
-                        <h5 className="px-[20px] font-manrope text-[16px] font-normal tracking-wider text-blanco">
+                        <h5 className="px-[5px] font-manrope text-[14px] font-normal tracking-wider text-blanco sm:px-[20px] sm:text-[16px]">
                             {t.rich('free', {
                                 bold: (chunks) => <strong>{chunks}</strong>,
                             })}

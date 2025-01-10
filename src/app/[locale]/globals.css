@@ -56,7 +56,20 @@ body{
     background-size: cover;
     background-position: center center;
 }
-
+@media screen and (max-width: 640px ) {
+    .section-header-home{
+        background-image: url('/mobile/portada_home.png');
+    }
+    .section-about-home{
+        background-image: url('/home/antu_fondo-azul.jpg');
+    }
+    .section-ondemand-home{
+        background-image: url('/mobile/home_on-demand.png');
+    }
+    .section-contact-home{
+        background-image: url('/mobile/home_contacto.png');
+    }
+}
 
 @media(min-width: 641px){
     .section-header-home{

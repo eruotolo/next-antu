@@ -183,8 +183,8 @@ export default function Home() {
             </section>
 
             <section className="section-contact-home">
-                <div className="container mx-auto flex h-[400px] flex-col items-center justify-center sm:h-[500px]">
-                    <h3 className="mb-[30px] font-marcellus text-[20px] font-normal uppercase text-beige sm:text-[27px] sm:tracking-[0.1em]">
+                <div className="container mx-auto flex h-[400px] flex-col items-center justify-center sm:h-[550px]">
+                    <h3 className="mb-[30px] text-center font-marcellus text-[20px] font-normal uppercase text-beige sm:text-[27px] sm:tracking-[0.1em]">
                         {t('knowBetter')}
                     </h3>
                     <Link

@@ -10,7 +10,7 @@ export default function ContactPage() {
     const t = useTranslations('ContactPage');
     return (
         <>
-            <section className="section-header-contact mt-[-80px] sm:h-[100vh]">
+            <section className="section-header-contact mt-[-80px] h-[80vh] sm:h-[100vh]">
                 <div className="container mx-auto flex flex-col items-center justify-center sm:h-[100vh]">
                     <h2 className="text-center font-marcellus font-normal text-blanco sm:text-[50px] sm:leading-[55px] sm:tracking-[0.02em]">
                         {t('titleContact')}

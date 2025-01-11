@@ -69,6 +69,21 @@ body{
     .section-contact-home{
         background-image: url('/mobile/home_contacto.png');
     }
+    .section-header-about{
+        background-image: url('/mobile/portada_about.png');
+    }
+    .slider-about-One{
+        background-image: url('/mobile/slider_1.png');
+    }
+    .slider-about-Two{
+        background-image: url('/mobile/slider_2.png');
+    }
+    .slider-about-Three{
+        background-image: url('/mobile/slider_3.png');
+    }
+    .section-suscribe-about{
+        background-image: url('/about/about_antu_suscribete.jpg');
+    }
     .section-header-journey{
         background-image: url('/journey/journey_antu.png');
     }

@@ -69,6 +69,9 @@ body{
     .section-contact-home{
         background-image: url('/mobile/home_contacto.png');
     }
+    .section-header-journey{
+        background-image: url('/journey/journey_antu.png');
+    }
 }
 
 @media(min-width: 641px){

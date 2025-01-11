@@ -18,6 +18,7 @@ const discoverBack = '/home/discover_2.png';
 
 export default function Home() {
     const t = useTranslations('HomePage');
+
     return (
         <>
             <section className="section-header-home mt-[-80px] h-[100vh]">

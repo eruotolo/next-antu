@@ -112,7 +112,10 @@ export default function MobileMenu() {
                             <div className="flex flex-col items-center py-4">
                                 <ul className="flex flex-col items-center">
                                     <li>
-                                        <Link className="my-[8px] flex h-[54px] w-[300px] items-center justify-center rounded-[26px] border-[2px] border-rosa font-marcellus text-[20px] font-normal uppercase text-rosa">
+                                        <Link
+                                            className="my-[8px] flex h-[54px] w-[300px] items-center justify-center rounded-[26px] border-[2px] border-rosa font-marcellus text-[20px] font-normal uppercase text-rosa"
+                                            onClick={toggleMenu}
+                                        >
                                             {t('signin')}
                                         </Link>
                                     </li>
@@ -120,6 +123,7 @@ export default function MobileMenu() {
                                         <Link
                                             href="/join-us"
                                             className="my-[8px] flex h-[54px] w-[300px] items-center justify-center rounded-[26px] border-[2px] bg-[#3970a4] font-marcellus text-[20px] font-normal uppercase text-beige"
+                                            onClick={toggleMenu}
                                         >
                                             {t('start')}
                                         </Link>

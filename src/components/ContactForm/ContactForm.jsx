@@ -104,7 +104,7 @@ export default function ContactForm() {
                 <div className="flex flex-col items-end py-[5px]">
                     <button
                         type="submit"
-                        className="flex items-center justify-center rounded-[26px] border-[2px] border-azul bg-azul text-center font-marcellus font-normal text-blanco hover:opacity-50 sm:h-[53px] sm:w-[186px] sm:text-[23px]"
+                        className="flex h-[54px] w-[183px] items-center justify-center rounded-[26px] border-[2px] border-azul bg-azul text-center font-marcellus font-normal uppercase text-blanco hover:opacity-50 sm:h-[53px] sm:w-[186px] sm:text-[23px]"
                     >
                         {t('btnContact')}
                     </button>

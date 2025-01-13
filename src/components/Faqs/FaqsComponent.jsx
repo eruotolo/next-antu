@@ -57,10 +57,10 @@ export default function FagsComponent() {
                         value={faq.index}
                         className={index === 0 ? 'border-t' : ''}
                     >
-                        <AccordionTrigger className="font-manrope font-bold text-blanco sm:text-[23px] sm:leading-[30px]">
+                        <AccordionTrigger className="text-left font-manrope text-[20px] font-bold leading-[26px] text-blanco sm:text-[23px] sm:leading-[30px]">
                             {faq.title}
                         </AccordionTrigger>
-                        <AccordionContent className="font-manrope font-normal text-blanco sm:text-[15px] sm:leading-[20px]">
+                        <AccordionContent className="font-manrope text-[18px] font-normal leading-[26px] text-blanco sm:text-[15px] sm:leading-[20px]">
                             {faq.text}
                         </AccordionContent>
                     </AccordionItem>

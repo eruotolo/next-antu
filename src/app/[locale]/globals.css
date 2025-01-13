@@ -84,6 +84,17 @@ body{
     .section-suscribe-about{
         background-image: url('/about/about_antu_suscribete.jpg');
     }
+    .section-header-ondemand{
+        background-image: url('/mobile/pordad_on-demand.png');
+    }
+    .section-clases-ondemand{
+        background-image: url('/mobile/ondemand_clase.png');
+        background-size: cover;
+        background-position: center center;
+    }
+    .section-header-contact{
+        background-image: url('/mobile/portada_contacto.png');
+    }
     .section-header-journey{
         background-image: url('/journey/journey_antu.png');
     }

@@ -28,7 +28,7 @@ export default function FagsComponent() {
             index: 'item-3',
             title: t('faqTitleThree'),
             text: t.rich('faqTextThree', {
-                guidelines: (children) => <Link href="/prueba">{children}</Link>,
+                guidelines: (children) => <Link href="/freedemo">{children}</Link>,
             }),
         },
         {

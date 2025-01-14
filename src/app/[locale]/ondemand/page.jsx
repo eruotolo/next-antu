@@ -122,10 +122,10 @@ export default function OnDemandPage() {
                                 <h2 className="font-marcellus text-[50px] font-normal text-verde">
                                     {t('priceOne')}
                                 </h2>
-                                <p className="px-[35px] pb-[50px] pt-[30px] text-center font-manrope text-[18px] font-normal leading-[24px] text-gris sm:text-[15px] sm:leading-[20px]">
+                                <p className="h-[150px] px-[35px] pb-[50px] pt-[30px] text-center font-manrope text-[18px] font-normal leading-[24px] text-gris sm:text-[15px] sm:leading-[20px]">
                                     {t('textOne')}
                                 </p>
-                                <h5 className="upercase font-manrope font-normal text-[#adadad] sm:pb-[30px] sm:text-[20px] sm:leading-[30px]">
+                                <h5 className="upercase pb-[30px] font-manrope text-[24px] font-normal leading-[34px] text-[#adadad] sm:text-[20px] sm:leading-[30px]">
                                     {t('otherPriceOne')}
                                 </h5>
                                 <Link
@@ -142,7 +142,7 @@ export default function OnDemandPage() {
                                 <h2 className="font-marcellus text-[50px] font-normal text-verde">
                                     {t('priceTwo')}
                                 </h2>
-                                <p className="px-[35px] pb-[50px] pt-[30px] text-center font-manrope text-[18px] font-normal leading-[24px] text-gris sm:text-[15px] sm:leading-[20px]">
+                                <p className="h-[150px] px-[35px] pb-[50px] pt-[30px] text-center font-manrope text-[18px] font-normal leading-[24px] text-gris sm:text-[15px] sm:leading-[20px]">
                                     {t('textTwo')}
                                 </p>
                                 <h5 className="upercase pb-[30px] font-manrope text-[24px] font-normal leading-[34px] text-[#adadad] sm:text-[20px] sm:leading-[30px]">

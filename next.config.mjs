@@ -36,7 +36,7 @@ const nextConfig = {
     // Optimizaciones para imágenes
     images: {
         domains: ['www.antumovement.com'], // Añade aquí los dominios de tus imágenes
-        formats: ['image/avif', 'image/webp', 'image/png', 'image/jpeg'],
+        formats: ['image/avif', 'image/webp'],
     },
     // Configuración para mejorar el SEO
     poweredByHeader: false, // Remueve el header X-Powered-By por seguridad

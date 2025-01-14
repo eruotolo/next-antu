@@ -60,5 +60,17 @@ export default function sitemap() {
                 },
             },
         },
+        {
+            url: 'https://www.antumovement.com/freedemo',
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.8,
+            alternates: {
+                languages: {
+                    es: 'https://www.antumovement.com/es/freedemo',
+                    en: 'https://www.antumovement.com/en/freedemo',
+                },
+            },
+        },
     ];
 }

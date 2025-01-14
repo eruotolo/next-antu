@@ -31,6 +31,11 @@ const nextConfig = {
                 destination: '/es/join-us',
                 permanent: true,
             },
+            {
+                source: '/freedemo',
+                destination: '/es/freedemo',
+                permanent: true,
+            },
         ];
     },
     // Optimizaciones para imágenes

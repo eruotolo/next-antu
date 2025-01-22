@@ -1,21 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import dynamic from 'next/dynamic';
-import { useEffect, useState } from 'react';
 import { Link } from '@/i18n/routing';
-
-const DynamicVideoDemo = dynamic(() => import('@/components/VideosCloudinary/VideoDemo'), {
-    ssr: false,
-});
+import VimeoVimeo from '@/components/VideoVimeo/VideoVimeo';
 
 export default function FreePage() {
     const t = useTranslations('FreeDemo');
-    const [isMounted, setIsMounted] = useState(false);
-
-    useEffect(() => {
-        setIsMounted(true);
-    }, []);
 
     return (
         <section className="pb-[70px] sm:py-[100px]">
@@ -30,9 +20,7 @@ export default function FreePage() {
                         </h1>
                     </div>
                     <div className="my-[40px] w-full sm:my-[60px]">
-                        {isMounted && (
-                            <DynamicVideoDemo urlVideo="videodemo/uuh7ub9ebxovkcymez3p" />
-                        )}
+                        <VimeoVimeo videoId="1049113761" />
                     </div>
                     <div className="sm:w-[800px]">
                         <p className="text-center font-manrope text-[18px] font-normal leading-[26px] text-gris sm:text-[15px] sm:leading-[20px]">

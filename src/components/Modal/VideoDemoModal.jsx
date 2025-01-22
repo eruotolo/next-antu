@@ -1,14 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogTrigger, DialogClose } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
-
-const DynamicVideoDemo = dynamic(() => import('@/components/VideosCloudinary/VideoDemo'), {
-    ssr: false,
-});
+import VimeoVimeo from '@/components/VideoVimeo/VideoVimeo';
 
 export default function VideoDemoModal() {
     const t = useTranslations('HomePage');
@@ -23,7 +19,7 @@ export default function VideoDemoModal() {
                 <DialogClose className="absolute right-[14px] top-[14px] z-20">
                     <X className="h-[24px] w-[24px] text-blanco" />
                 </DialogClose>
-                {isOpen && <DynamicVideoDemo urlVideo="videodemo/uuh7ub9ebxovkcymez3p" />}
+                <VimeoVimeo videoId="1049113761" />
             </DialogContent>
         </Dialog>
     );

@@ -5,42 +5,42 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
-  provider = "prisma-client-js"
+    provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
 }
 
 model User {
-  email     String     @unique
-  name      String?
-  lastName  String?
-  phone     String?
-  address   String?
-  city      String?
-  password  String
-  state     Int        @default(1)
-  createdAt DateTime   @default(now())
-  id        Int        @id @default(autoincrement())
-  image     String     @default("Hola")
-  roles     UserRole[]
+    email     String     @unique
+    name      String?
+    lastName  String?
+    phone     String?
+    address   String?
+    city      String?
+    password  String
+    state     Int        @default(1)
+    createdAt DateTime   @default(now())
+    id        Int        @id @default(autoincrement())
+    image     String     @default("Hola")
+    roles     UserRole[]
 }
 
 model Role {
-  id        Int        @id @default(autoincrement())
-  name      String
-  state     Int        @default(1)
-  createdAt DateTime   @default(now())
-  users     UserRole[]
+    id        Int        @id @default(autoincrement())
+    name      String
+    state     Int        @default(1)
+    createdAt DateTime   @default(now())
+    users     UserRole[]
 }
 
 model UserRole {
-  createdAt DateTime @default(now())
-  id        Int      @id @default(autoincrement())
-  userId    Int
-  roleId    Int
-  role      Role     @relation(fields: [roleId], references: [id])
-  user      User     @relation(fields: [userId], references: [id])
+    createdAt DateTime @default(now())
+    id        Int      @id @default(autoincrement())
+    userId    Int
+    roleId    Int
+    role      Role     @relation(fields: [roleId], references: [id])
+    user      User     @relation(fields: [userId], references: [id])
 }
